@@ -19,7 +19,7 @@ services:
       dockerfile: ./docker/nginx.dockerfile
     container_name: nginx
     ports:
-      - 4049:80"
+      - "4049:80"
     volumes:
       - .:/var/www/html
     depends_on:
